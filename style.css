@@ -37,3 +37,14 @@ footer {
 #inter {
     margin-top: 14rem;
 }
+
+#seletor {
+    display: flex;
+    justify-content: center;
+}
+
+#seltab {
+    width: 930px;
+    border-radius: 10px;
+    
+}
