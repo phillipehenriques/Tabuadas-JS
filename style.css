@@ -1,22 +1,27 @@
 body {
     /* background: rgb(219,142,195); */
-    background-image: url('imagens/matt.png');
+    background-image: url('imagens/matt.jpg');
     background-repeat: no-repeat;
     /* background: radial-gradient(circle, rgba(219,142,195,1) 0%, rgba(194,79,158,1) 32%, rgba(85,6,60,1) 77%); */
     font: normal 15pt Arial;
     color: white;
 }
 
+img {
+    position: fixed;
+}
+
 header {
     background-color: none;
-    padding: 15px;
-    width: 50%;
+    padding: 14px;
+    width: 100%;
     margin: auto;
     text-align: center;
+    border-radius: 12px;
 }
 
 section {
-    background-color: #b2448f7e;
+    background-color: #B87B80;
     border-radius: 12px;
     padding: 15px;
     width: 20%;
@@ -32,19 +37,22 @@ footer {
     margin: auto;
     text-align: center;
     font-style: italic;
-    margin-bottom: 9.70vh
+    margin-top: 1vh;
 }
 
 #btn {
-    border: white;
-    background-color: #c276aa;
+    border: #B87B80;
+    background-color: white;
     height: 20px;
     border-radius: 5px;
     width: 110px;
 }
 
 #inter {
-    margin-top: 14rem;
+    margin-top: 5rem;
+    background-color: #B87B80;
+    max-width: 60%;
+    margin-bottom: 14vh;
 }
 
 #seletor {
